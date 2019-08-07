@@ -1,6 +1,6 @@
 function uploadWithQiNiuSDK($this, successInput) {
     $.ajax({
-        url: "/admin/getQiNiuUpToken", success: function (res) {
+        url: "/WybEZmZZrK5LTMLbunYct5ssWu462Uh45fW/getQiNiuUpToken", success: function (res) {
             var token = res.uptoken;
             var domain = res.domain;
             var config = {
